@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0px;
     box-sizing: border-box;
-    font-family: 'Signika Negative', sans-serif;
+    font-family: 'Raleway', sans-serif;
+
 }
 
 input:focus {
@@ -339,7 +340,6 @@ body {
 
 
 * {
-    font-family: 'Raleway';
     margin: 0px;
     padding: 0px;
 }
@@ -355,12 +355,10 @@ body {
 }
 
 .form {
-    font-family: 'Raleway';
     height: 5vh;
 }
 
 .form a {
-    font-family: 'Raleway';
     font-size: 14px;
     display: inline-block;
     text-decoration: none;
@@ -512,7 +510,6 @@ body {
 }
 
 .title {
-    font-family: 'Raleway';
     text-align: center;
     color: white;
     font-size: 40px;
@@ -545,7 +542,6 @@ h2 {
 }
 
 .card-container {
-    font-family: 'Raleway';
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -590,7 +586,6 @@ h2 {
 }
 
 .card-button {
-    font-family: 'Raleway';
     background-color: #ff0000;
     color: #fff;
     border: none;
@@ -638,7 +633,6 @@ h2 {
 
 .texto-box{
     margin-bottom: 30px;
-    font-family: 'Raleway';
     color: white;
     font-weight: bold;
     font-size: 1.5rem;
@@ -657,7 +651,6 @@ h2 {
 }
 
 .alerta-txt{
-    font-family: 'Raleway';
     color: rgb(255, 255, 255);
     font-weight: bold;
     font-size: 1.0rem;
@@ -679,7 +672,6 @@ h2 {
     width: 100%;
 }
 h1{
-    font-family: 'Raleway';
     font-size: 32px;
     text-align: center;
     margin-bottom: 30px;
@@ -756,13 +748,11 @@ h1{
 .ou{
     position: relative;
     
-    font-family: 'Raleway';
     color: white;
     font-weight: bold;
     font-size: 3vh;
 }
 .acha-txt, .perd-txt{
-    font-family: 'Raleway';
     color: white;
     font-weight: bold;
     text-decoration: none;
@@ -786,7 +776,6 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: left;
-    font-family: "Raleway";
     color: rgb(255, 255, 255);
     box-shadow: 7px 0px 0px rgb(57, 150, 207);
     overflow-y: hidden;
@@ -867,13 +856,11 @@ body{
     justify-content: space-around;
     align-items: flex-start;
     padding: 10px;
-    font-family: 'Raleway';
     font-size: 1.5rem;
     color: white;
     
 }
 .nickname{
-    font-family: 'Raleway';
     font-size: 15px;
     padding-left: 5px;
     font-weight: bold;
@@ -886,7 +873,6 @@ body{
 }
 .desc-obj, .loc-txt, .dat-txt, .det-txt{
     display: flex;
-    font-family: Arial, Helvetica, sans-serif;
     align-items: center;
     font-size: 15px;
     font-weight: bold;
@@ -932,7 +918,6 @@ body{
     filter: invert(100%);
 }
 .btn-txt{
-    font-family: 'Raleway';
     font-weight: bold;
     font-size: 18px;
     padding: 7px 10px;
