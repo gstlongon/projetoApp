@@ -1,13 +1,17 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=][, initial-scale=1.0">
+    <title>Achados e Perdidos</title>
     <link rel="stylesheet" href="style.css">
-    <title>Página Inicial</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Raleway:wght@300&family=Roboto:wght@500&family=Signika:wght@600&display=swap" rel="stylesheet">
 </head>
-<body class="inital__body">
+<body>
+    <!-- Header -->
     <header class="header">
         <div class="header__left">
             <div class="header__logo">
@@ -52,34 +56,137 @@
 
         </div>
     </header>
+    <h1>Achados e perdidos</h1>
     <div class="box">
-        <div id="form-modal" class="modal">
-          <div class="content">
-            <div class="modal-inside">
-              <h1 class="title-modal">Emitir emergencia</h1>
-              <label for="meuInput">Título da emergencia:</label>
-              <input class="inputtxt" type="text" id="meuInput1" name="meuInput">
-              <br>
-              <br>
-              <label for="meuInput">Data da emergencia:</label>
-              <input class="inputtxt" type="text" id="meuInput2" name="meuInput">
-              <br>
-              <br>
-              <label for="meuInput">Descriçāo da emergencia:</label>
-              <input class="inputtxt" type="text" id="meuInput3" name="meuInput">
-                <div class="footer">
-                  <a href="#" class="footer-btn-close"> Cancelar </a>
-                  <a href="#" class="footer-btn-send"> Enviar </a>
-                </div>
-                <a href="#" class="close">&times;</a>
+        <div class="box">
+            <div id="form-modal" class="modal">
+              <div class="content">
+                <div class="modal-inside">
+                  <h1 class="title-modal">Emitir emergencia</h1>
+                  <label for="meuInput">Título da emergencia:</label>
+                  <input class="inputtxt" type="text" id="meuInput1" name="meuInput">
+                  <br>
+                  <br>
+                  <label for="meuInput">Data da emergencia:</label>
+                  <input class="inputtxt" type="text" id="meuInput2" name="meuInput">
+                  <br>
+                  <br>
+                  <label for="meuInput">Descriçāo da emergencia:</label>
+                  <input class="inputtxt" type="text" id="meuInput3" name="meuInput">
+                    <div class="footer">
+                      <a href="#" class="footer-btn-close"> Cancelar </a>
+                      <a href="#" class="footer-btn-send"> Enviar </a>
+                    </div>
+                    <a href="#" class="close">&times;</a>
+                  </div>
+                  <a class="upload" href="#" ><img src="clouduploadfilestorageuploadicon-1320190558968694328.png" alt="upload" class="upload-img"></a>
               </div>
-              <a class="upload" href="#" ><img src="clouduploadfilestorageuploadicon-1320190558968694328.png" alt="upload" class="upload-img"></a>
-          </div>
+            </div>
         </div>
     </div>
-    <section class="initial__map">
-        <iframe class="initial__map-frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3693.086713150848!2d-49.96903758912402!3d-22.23678851418553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94bfd7710bfa340b%3A0xaa8d32096bc6676b!2sUNIMAR%20-%20Universidade%20de%20Mar%C3%ADlia!5e0!3m2!1spt-BR!2sbr!4v1685750227853!5m2!1spt-BR!2sbr" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </section>
+    <div class="content__container">
+       
+        <!-- Posts -->
+        <div class="feed">
+            <div class="post" id="post1">
+                <div class="user">
+                    <img class="foto-user" src="./img/tchalamet.jpg" alt="user">
+                    <p class="nickname">Usuário</p>
+                </div>
+                <div class="postagem">
+                    <img class="foto" src="./img/carteira.webp">
+                    <div class="descricao">
+                        <div class="obj">
+                            <p class="obj-texto">Objeto:</p>
+                            <p class="desc-obj">Carteira quadriculada</p>
+                        </div>
+                        <div class="loc-desc">
+                            <p class="loc">Local:</p>
+                            <p class="loc-txt">Campo</p>
+                        </div>
+                        <div class="dat-desc">
+                            <p class="dat">Data:</p>
+                            <p class="dat-txt">24/05/2023</p>
+                        </div>
+                        <div class="det-desc">
+                            <p class="det">Detalhes:</p>
+                            <p class="det-txt">Encontrado próximo ao portão do campo às 14h.</p>
+                        </div>
+                        <button type="button" class="btn-msg">
+                            <img class="msg-icon" src="./img/chatbubbles-outline.svg">
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="post" id="post2">
+                <div class="user">
+                    <img class="foto-user" src="./img/tchalamet.jpg" alt="user">
+                    <p class="nickname">Usuário</p>
+                </div>
+                <div class="postagem">
+                    <div class="descricao">
+                        <div class="obj">
+                            <p class="obj-texto">Objeto:</p>
+                            <p class="desc-obj">Carteira</p>
+                        </div>
+                        <div class="dat-desc">
+                            <p class="dat">Data:</p>
+                            <p class="dat-txt">24/05/2023</p>
+                        </div>
+                        <div class="det-desc">
+                            <p class="det">Detalhes:</p>
+                            <p class="det-txt">Eu estava tão distraído com as tarefas do cotidiano que nem percebi quando ela escapou do meu bolso. Foi apenas quando cheguei em casa e fui procurar pela carteira para fazer uma compra online que percebi sua ausência.</p>
+                        </div>
+                        <button type="button" class="btn-msg2">
+                            <img class="msg-icon" src="./img/chatbubbles-outline.svg">
+                        </button>
+                    </div>    
+                </div>
+            </div>
+            <div class="post" id="post3">
+                <div class="user">
+                    <img class="foto-user" src="./img/tchalamet.jpg" alt="user">
+                    <p class="nickname">Usuário</p>
+                </div>
+                <div class="postagem">
+                    <img class="foto" src="./img/chaves.jfif">
+                    <div class="descricao">
+                        <div class="obj">
+                            <p class="obj-texto">Objeto:</p>
+                            <p class="desc-obj">Chaveiro torre eiffel</p>
+                        </div>
+                        <div class="loc-desc">
+                            <p class="loc">Local:</p>
+                            <p class="loc-txt">Entrada bloco 4</p>
+                        </div>
+                        <div class="dat-desc">
+                            <p class="dat">Data:</p>
+                            <p class="dat-txt">30/04/2023</p>
+                        </div>
+                        <div class="det-desc">
+                            <p class="det">Detalhes:</p>
+                            <p class="det-txt"></p>
+                        </div>
+                        <button type="button" class="btn-msg3">
+                            <img class="msg-icon" src="./img/chatbubbles-outline.svg">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-box">
+            <p class="texto-box">Deseja publicar algo?</p>
+            <button class="perd-btn">
+                <a href="criar postagem.html" class="perd-txt">Perdido</a>
+            </button>
+            <p class="ou">ou</p>
+            <button class="acha-btn">
+                <a href="criar postagem.html" class="acha-txt">Achado</a>
+            </button>
+            
+        </div>
+    </div>
+    <!-- Box -->
     <footer>
         <a class="footer__alert" href="#form-modal">
             <svg class="footer__alert-icon" width="44" height="43" viewBox="0 0 44 43" fill="none" xmlns="http://www.w3.org/2000/svg">
